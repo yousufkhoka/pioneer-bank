@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  padding: 100px;
+}
+#login_area h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700px;
+    
+}
+#login_area #submit_area {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 3px 5px 10px 3px #636161;
+    border-radius: 15px;
+    margin-top:40px;
+}
+.form_fild h4,
+#login_area #submit_area h4{
+ text-transform: capitalize;
+ margin-bottom:20px;
+ font-size: 25px;
+ font-weight: 600;
+}
+#transaction_area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdeaw{
+   background-color: lightsalmon;
+}
+.balecs{
+    background-color: orange;
+}
+#transaction_area .item{
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+#transaction_area .item h2{
+    font-size: 50px;
+    font-size: 700;
+}
+#transaction_area .item h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+.form_fild{
+    margin: 0 auto;
+	padding: 30px;
+	box-shadow: 3px 5px 7px 3px #636161;
+    border-radius: 15px;
+    margin-top:40px;
+    margin:0 10px;
+}
